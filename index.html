@@ -7,6 +7,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -56,10 +57,190 @@
                         <div>
                             <button class="bg-primary border border-0 rounded text-light p-2">Aggiungi Libro</button>
                         </div>
-                        
+
                     </div>
-
-
+                    <div>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="col-6" scope="col">Titolo</th>
+                                    <th class="col-3" scope="col">Data prestito</th>
+                                    <th class="col-6" scope="col">Stato</th>
+                                    <th class="col-5" scope="col">Azioni</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr> <!-- 1 row -->
+                                    <td scope="col">I pilastri della terra</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-success rounded p-1 text-white">Disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                 <tr> <!-- 2 row -->
+                                    <td scope="col">I promessi sposi</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-success rounded p-1 text-white">Disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 3 row -->
+                                    <td scope="col">Il signore degli anelli</td>
+                                    <td scope="col">18/10/2023</td>
+                                    <td scope="col"><span class="bg-warning rounded p-1 text-white">In prestito</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 4 row -->
+                                    <td scope="col">Harry Potter e la pietra filosofale</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-success rounded p-1 text-white">Disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 5 row -->
+                                    <td scope="col">Il codice Da Vinci</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-danger rounded p-1 text-white">Non disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 6 row -->
+                                    <td scope="col">Shining</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-success rounded p-1 text-white">Disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 7 row -->
+                                    <td scope="col">La divina commedia</td>
+                                    <td scope="col">21/09/2023</td>
+                                    <td scope="col"><span class="bg-warning rounded p-1 text-white">In prestito</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 8 row -->
+                                    <td scope="col">Il trono di spade</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-success rounded p-1 text-white">Disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 9 row -->
+                                    <td scope="col">Il mondo di Sofia</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-danger rounded p-1 text-white">Non disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 10 row -->
+                                    <td scope="col">Le croache di Narnia: il leone, la strega e l'armadio</td>
+                                    <td scope="col">25/07/2023</td>
+                                    <td scope="col"><span class="bg-warning rounded p-1 text-white">In prestito</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 11 row -->
+                                    <td scope="col">Il piccolo principe</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-success rounded p-1 text-white">Disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr> <!-- 12 row -->
+                                    <td scope="col">La storia infinita</td>
+                                    <td scope="col">-</td>
+                                    <td scope="col"><span class="bg-success rounded p-1 text-white">Disponibile</span>
+                                    </td>
+                                    <td class="d-flex gap-2" scope="col">
+                                        <button class="text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </button>
+                                        <button class="text-secondary text-secondary border border-3 border-secondary-subtle rounded">
+                                            <i class="bi bi-trash-fill"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="col">
 
