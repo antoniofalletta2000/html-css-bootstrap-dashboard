@@ -14,7 +14,7 @@
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
-            <a class="navbar-brand p-2" href="#"><img width="60px" src="./img/duck.png" alt=""></a>
+            <a class="navbar-brand p-2" href="index.html"><img width="60px" src="./img/duck.png" alt=""></a>
             <button class="navbar-toggler d-lg-none bi bi-list" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation"></button>
@@ -88,16 +88,16 @@
                     <h5>Genere</h5>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Scegli il genere</option>
-                        <option value="1">Giallo</option>
-                        <option value="2">Avventura</option>
-                        <option value="3">Manga</option>
-                        <option value="4">Horror</option>
-                        <option value="5">Cucina</option>
-                        <option value="6">Romantico</option>
+                        <option value="1">Giallo 🕵🏻‍♂️</option>
+                        <option value="2">Avventura 🌳</option>
+                        <option value="3">Manga 🏯</option>
+                        <option value="4">Horror 🧛🏻‍♂️</option>
+                        <option value="5">Cucina 🍝</option>
+                        <option value="6">Romantico 💘</option>
                         <option value="7">Altro...</option>
                     </select>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 pt-3 pb-3">
                     <h5>Anno di Pubblicazione</h5>
                     <input type="text" class="form-control" placeholder="Inserisci l'anno"
                         aria-label="publication year">
@@ -110,12 +110,27 @@
             </div>
 
             <!-- hr -->
-             <div class="row pt-4">
+            <div class="row pt-4">
                 <div class="col">
                     <hr class="text-secondary">
                 </div>
             </div>
 
+            <!-- note -->
+            <div class="row pt-3">
+                <div class="col">
+                        <div class="form-group">
+                            <h5>Note</h5>
+                            <input type="note" class="form-control pb-5" 
+                                placeholder="Inserisci eventuali note sul libro">
+                        </div>
+                        <div class="form-check pt-3 pb-3">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Disponibile anche in digitale</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Aggiungi libro</button>
+                </div>
+            </div>
 
 
 
